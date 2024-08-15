@@ -8,14 +8,19 @@
     "start": "astro dev",
     "build": "astro build",
     "preview": "astro preview",
-    "astro": "astro"
+    "astro": "astro",
+    "seed": "node seed/seed.js"
   },
   "dependencies": {
     "@astrojs/node": "^8.3.3",
     "@astrojs/tailwind": "^5.1.0",
     "@prisma/client": "^5.18.0",
     "astro": "^4.14.2",
+    "bcryptjs": "^2.4.3",
     "prisma": "^5.18.0",
     "tailwindcss": "^3.4.10"
+  },
+  "devDependencies": {
+    "@types/bcryptjs": "^2.4.6"
   }
 }
