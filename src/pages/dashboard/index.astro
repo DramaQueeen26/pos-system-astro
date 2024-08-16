@@ -1,0 +1,8 @@
+---
+import { getSession } from "auth-astro/server";
+
+const session = await getSession(Astro.request);
+---
+
+<h1>Dashboard</h1>
+<p>{JSON.stringify(session)}</p>
